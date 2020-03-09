@@ -1,27 +1,22 @@
 {
-  "name": "markdown-editor",
+  "name": "prova2",
   "version": "1.0.0",
-  "description": "Markdown editor",
-  "main": "./assets/js/main.js",
-  "dependencies": {
-    "browserify": "^16.5.0",
-    "marked": "^0.8.0"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "start": "node_modules/nodemon/bin/nodemon.js index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/massinlaaouaj/Markdown-editor.git"
-  },
-  "keywords": [
-    "markdown"
-  ],
-  "author": "Massin Laaouaj and Ivan Perez",
+  "author": "massin",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/massinlaaouaj/Markdown-editor/issues"
+  "dependencies": {
+    "axios": "^0.19.2",
+    "browserify": "^16.5.0",
+    "dompurify": "^2.0.8",
+    "marked": "^0.8.0"
   },
-  "homepage": "https://github.com/massinlaaouaj/Markdown-editor#readme"
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "nodemon": "^2.0.2"
+  }
 }
